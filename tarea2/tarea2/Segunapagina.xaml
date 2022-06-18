@@ -4,24 +4,31 @@
              x:Class="tarea2.Segunapagina">
     <ContentPage.Content>
         <StackLayout>
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Nombre:"/>
             <Label Text="{Binding nombre}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" x:Name="lblnombre"/>
-
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lblnombre"/>
+            
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Apellido:"/>
 
             <Label Text="{Binding apellido}" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"  x:Name="lblapellido"/>
+                FontSize="Subtitle"
+                Padding="20,0,20,0"
+                x:Name="lblapellido"/>
 
-
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Edad:"/>
             <Label Text="{Binding edad}" 
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"  x:Name="lbledad"/>
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lbledad"/>
 
-
+            <Label FontSize="Subtitle"
+                Padding="20,0,20,0" Text="Correo:"/>
             <Label Text="{Binding correo}"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand"  x:Name="lblcorreo"/>
+                FontSize="Subtitle"
+                Padding="20,0,20,0" x:Name="lblcorreo"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
